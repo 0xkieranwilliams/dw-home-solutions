@@ -18,12 +18,12 @@ export default function Footer() {
             className="space-y-6"
           >
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10">
+              <div className="w-14 h-14">
                 <Image 
                   src="/dw-home-solutions-logo-without-dw.png" 
                   alt="DW Home Solutions Logo" 
-                  width={40} 
-                  height={40}
+                  width={100} 
+                  height={100}
                   className="w-full h-full object-contain"
                 />
               </div>
@@ -167,7 +167,7 @@ export default function Footer() {
                 className="flex items-center space-x-3"
               >
                 <Mail className="w-5 h-5 text-primary-400" />
-                <span className="text-gray-300">info@refinespaces.com</span>
+                <span className="text-gray-300">dwhomesolutions@gmail.com</span>
               </motion.div>
               
               <motion.div

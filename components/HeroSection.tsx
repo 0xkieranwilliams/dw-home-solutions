@@ -30,7 +30,7 @@ export default function HeroSection() {
     <section 
       ref={heroRef}
       id="home" 
-      className="relative h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-50 via-white to-gray-100 dark:from-dark-900 dark:via-dark-800 dark:to-dark-900"
+      className="pt-[100px] relative h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-50 via-white to-gray-100 dark:from-dark-900 dark:via-dark-800 dark:to-dark-900"
     >
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
