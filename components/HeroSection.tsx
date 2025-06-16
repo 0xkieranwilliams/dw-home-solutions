@@ -126,7 +126,7 @@ export default function HeroSection() {
 
       {/* Floating Icons */}
       <motion.div
-        className="absolute top-1/4 left-1/4 text-sky-400/40 dark:text-sky-300/40"
+        className="absolute top-1/4 left-1/4 text-sky-400/40 dark:text-sky-300/40 hidden md:block"
         animate={{
           y: [0, -10, 0],
           rotate: [0, 5, 0],
@@ -141,7 +141,7 @@ export default function HeroSection() {
       </motion.div>
       
       <motion.div
-        className="absolute top-1/3 right-1/3 text-cyan-500/40 dark:text-cyan-400/40"
+        className="absolute top-1/3 right-1/3 text-cyan-500/40 dark:text-cyan-400/40 hidden md:block"
         animate={{
           y: [0, 15, 0],
           rotate: [0, -5, 0],
@@ -157,7 +157,7 @@ export default function HeroSection() {
       </motion.div>
       
       <motion.div
-        className="absolute bottom-1/3 left-1/3 text-blue-400/40 dark:text-blue-300/40"
+        className="absolute bottom-1/3 left-1/3 text-blue-400/40 dark:text-blue-300/40 hidden md:block"
         animate={{
           y: [0, -12, 0],
           scale: [1, 1.1, 1],
@@ -264,7 +264,7 @@ export default function HeroSection() {
 
           {/* Scroll indicator */}
           <motion.div
-            className="mt-16 flex justify-center"
+            className="mt-16 flex justify-center hidden md:flex"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1.3 }}
