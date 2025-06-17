@@ -229,7 +229,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 dark:text-white">Location</h4>
-                  <p className="text-gray-600 dark:text-gray-300">Serving Greater Metropolitan Area</p>
+                  <p className="text-gray-600 dark:text-gray-300">Serving South West Wales</p>
                 </div>
               </motion.div>
 
